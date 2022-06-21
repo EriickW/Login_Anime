@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+  --color-focus-input:rgba(0,155,125,255);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/1008472.png") center center/cover;
+}
+
+body main {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .login {
+  width: 35rem;
+  height: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+body main .login h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+body main .login form {
+  text-align: center;
+}
+
+body main .login form .email-content, body main .login form .senha-content {
+  position: relative;
+  width: 25rem;
+  height: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+body main .login form input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0.3rem;
+  padding-left: 3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 3px solid transparent;
+  -webkit-transition: all 0.3s  ease-in-out;
+  transition: all 0.3s  ease-in-out;
+}
+
+body main .login form input:focus {
+  border: none;
+  border: 3px solid var(--color-focus-input);
+  outline: 0;
+}
+
+body main .login form .criar {
+  text-align: left;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+body main .login form .criar a {
+  color: white;
+  font-weight: 700;
+  font-style: none;
+}
+
+body main .login form button {
+  cursor: pointer;
+  width: 20rem;
+  height: 3.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  background: var(--color-focus-input);
+  color: white;
+  font-weight: 700;
+  border: 0.3rem solid var(--color-focus-input);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body main .login form button:hover {
+  background: rgba(0, 155, 125, 0.5);
+  color: white;
+}
+
+body main .login form .person, body main .login form .lock {
+  font-size: 1.6rem;
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  color: var(--color-focus-input);
+  z-index: 2;
+}
+/*# sourceMappingURL=main.css.map */
